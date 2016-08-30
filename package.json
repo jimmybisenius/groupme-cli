@@ -1,0 +1,24 @@
+{
+  "name": "groupme-cli",
+  "version": "0.0.1",
+  "description": "Javascript based CLI for GroupMe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmybisenius/groupme-cli.git"
+  },
+  "author": "Jimmy Bisenius <me@jimmybweb.com> (jimmybweb.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmybisenius/groupme-cli/issues"
+  },
+  "homepage": "https://github.com/jimmybisenius/groupme-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "groupme": "^0.5.7",
+    "prompt": "^1.0.0"
+  }
+}
