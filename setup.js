@@ -7,7 +7,7 @@ module.exports = function() {
 	prompt.start();
 	prompt.get(['Access Token'], function(err, result) {
 		if(err) return console.log(err);
-		process.env['GROUPME_ACCESS_TOKEN'] = result['Access Token'];
+		process.env.GROUPME_ACCESS_TOKEN = result['Access Token'];
 		return groupSelect();
 	});
 };
